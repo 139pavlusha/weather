@@ -1,0 +1,219 @@
+body {
+    background-color: #3399cc;
+    max-width: 720px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+*{transition: all .1s ease-in;}
+
+svg {
+    width: 30px;
+    fill: rgb(224, 223, 223);
+}
+
+li {
+    display: flex;
+}
+
+.one-size {
+    height: 100px;
+    display: block;
+    width: 25%;
+}
+
+.two-size {
+    height: 100px;
+    display: block;
+    width: 50%;
+} 
+
+.all-size {
+    height: 100px;
+    display: block;
+    width: 100%;
+} 
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.Title {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-right: 3px;
+    font-weight: 700;
+}
+
+header svg {
+    width: 30px;
+    fill: white;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+li p {
+    margin-top: 7px;
+    color: rgb(224, 223, 223);
+}
+
+.weather {
+    padding-top: 8px;
+    display: flex;
+    margin: auto;
+    width: 60px;
+}
+
+li > div {
+    border: 2px solid white;
+}
+
+.Paris {
+    background-color: #33cccc;
+}
+
+.Belgrade {
+    background-color: #996699;
+}
+
+.Moscow {
+    background-color: #c24747;
+}
+
+.TelAviv {
+    background-color: #e2674a;
+}
+
+.Cair {
+    background-color: #ffcc66;
+}
+
+.NewYork {
+    background-color: #99cc99;
+}
+
+.NewDelhi {
+    background-color: #669999;
+}
+
+.SanFrancisco {
+    background-color: #cc6699;
+}
+
+.Tokyo {
+    background-color: #339966;
+}
+
+.Sydney {
+    background-color: #666699;
+}
+
+ul:hover div {
+    opacity: 0.3;
+}
+
+.Lisbon:hover {
+    opacity: 1;
+}
+
+.Paris:hover {
+    opacity: 1;
+}
+
+.Belgrade:hover {
+    opacity: 1;
+}
+
+.Moscow:hover {
+    opacity: 1;
+}
+
+.TelAviv:hover {
+    opacity: 1;
+}
+
+.Cair:hover {
+    opacity: 1;
+}
+
+.NewYork:hover {
+    opacity: 1;
+}
+
+.NewDelhi:hover {
+    opacity: 1;
+}
+
+.SanFrancisco:hover {
+    opacity: 1;
+}
+
+.Tokyo:hover {
+    opacity: 1;
+}
+
+.Sydney:hover {
+    opacity: 1;
+}
+
+/*  */
+
+.Lisbon:hover .weather {
+    opacity: 1;
+}
+
+.Paris:hover .weather {
+    opacity: 1;
+}
+
+.Belgrade:hover .weather {
+    opacity: 1;
+}
+
+.Moscow:hover .weather {
+    opacity: 1;
+}
+
+.TelAviv:hover .weather {
+    opacity: 1;
+}
+
+.Cair:hover .weather {
+    opacity: 1;
+}
+
+.NewYork:hover .weather {
+    opacity: 1;
+}
+
+.NewDelhi:hover .weather {
+    opacity: 1;
+}
+
+.SanFrancisco:hover .weather {
+    opacity: 1;
+}
+
+.Tokyo:hover .weather {
+    opacity: 1;
+}
+
+.Sydney:hover .weather {
+    opacity: 1;
+}
+
+.notice {
+    margin-top: 20px;
+}
+
+.notice span{
+    color: white;
+}
